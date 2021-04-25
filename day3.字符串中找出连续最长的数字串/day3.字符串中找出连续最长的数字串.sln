@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "day3.字符串中找出连续最长的数字串", "day3.字符串中找出连续最长的数字串\day3.字符串中找出连续最长的数字串.vcxproj", "{72D3A240-DE01-4556-BBBE-3F63A7836574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72D3A240-DE01-4556-BBBE-3F63A7836574}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72D3A240-DE01-4556-BBBE-3F63A7836574}.Debug|Win32.Build.0 = Debug|Win32
+		{72D3A240-DE01-4556-BBBE-3F63A7836574}.Release|Win32.ActiveCfg = Release|Win32
+		{72D3A240-DE01-4556-BBBE-3F63A7836574}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
