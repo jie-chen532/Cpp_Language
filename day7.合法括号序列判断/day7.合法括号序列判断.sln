@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "day7.合法括号序列判断", "day7.合法括号序列判断\day7.合法括号序列判断.vcxproj", "{226D30D5-656F-4109-9E2F-CC0E8073F39A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{226D30D5-656F-4109-9E2F-CC0E8073F39A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{226D30D5-656F-4109-9E2F-CC0E8073F39A}.Debug|Win32.Build.0 = Debug|Win32
+		{226D30D5-656F-4109-9E2F-CC0E8073F39A}.Release|Win32.ActiveCfg = Release|Win32
+		{226D30D5-656F-4109-9E2F-CC0E8073F39A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
