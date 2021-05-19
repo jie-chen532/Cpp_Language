@@ -142,8 +142,105 @@ public:
 			}
 		}
 		_header->_parent->_color = BLACK;
-		_header->_left = 
-		_header->_right = 
+		_header->_left = leftMost();
+		_header->_right = rightMost();
+		return true; 
+	}
+
+	//红黑树：
+	//1.根是黑色
+	//2.每条路径黑色个数相同
+	//3.红色不能连续
+	bool isBalance()
+	{
+		if (_header->_parent == nullptr)
+			return true;
+		Node* root = _header->_parent;
+		if (root->_color == RED)
+			return false;
+		//统计一条路径上的黑色结点个数，如果其他路径上的黑色结点与统计的黑色结点个数相同，
+		//就说明每条路径黑色结点相同
+		Node* cur = root;
+		int bCount = 0;
+		while (cur)
+		{
+			if (cur->_color == BLACK)
+				bCount++;
+			cur = cur->_left;
+		}
+		int curCount = 0;
+		return _isBalance(root, bCount, curCount);
+	}
+
+	bool _isBalance(Node* root, int& bCount, int curCount)
+	{
+		//一条路径结束
+		if (root == nullptr)
+		{
+			if (curCount != bCount)
+				return false;
+			else
+				return true;
+		}
+
+		//如果是黑色结点
+		if (root->_color == Black)
+			++curCount;
+
+		//判断是否有连续两个红色结点
+		if (root != _header->_parent && root->_parent->_color == RED
+			&& root->_color == RED)
+		{
+			return false;
+		}
+
+		return _isBalance(root->_left, bCount, curCount) && isBalance(root->_right, bCount, curCount);
+	}
+
+	Node* leftMost()
+	{
+		Node* cur = _header->_parent;
+		while (cur && cur->left)
+		{
+			cur = cur->_left;
+		}
+		return cur;
+	}
+
+	Node* rightMost()
+	{
+		Node* cur = _header->_parent;
+		while (cur && cur->right)
+		{
+			cur = cur->_right;
+		}
+		return cur;
+	}
+
+	void RoteteR(Node* parent)
+	{
+		Node* subL = paren->left;
+		Node* subLR = subL->_right;
+
+		subL->_right = parent;
+		parent->_left = subLR;
+		if (subLR)
+			subLR->_parent = parent;
+		if (_header->_parent == parent)
+		{
+			subL->_parent = _header;
+			_header->_parent = subL;
+		}
+		else
+		{
+			Node* pparent = parent->_parent;
+			if (pparent->_left == parent)
+				pparent->_left = subL;
+			else
+				pparent->_right = subL;
+			subL->_parent = pparent;
+		}
+		parent->_parent = subL;
 	}
 
 	void RotateL(Node* parent)
