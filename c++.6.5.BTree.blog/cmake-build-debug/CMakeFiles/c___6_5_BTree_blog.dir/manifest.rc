@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/CLion/c++.6.5.BTree.blog/cmake-build-debug/CMakeFiles/c___6_5_BTree_blog.dir/embed.manifest"
