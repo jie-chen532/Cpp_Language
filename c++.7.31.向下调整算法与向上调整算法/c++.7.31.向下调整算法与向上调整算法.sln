@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++.7.31.向下调整算法与向上调整算法", "c++.7.31.向下调整算法与向上调整算法\c++.7.31.向下调整算法与向上调整算法.vcxproj", "{23F84642-E9B5-4339-A4A4-F9334E40E398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23F84642-E9B5-4339-A4A4-F9334E40E398}.Debug|x64.ActiveCfg = Debug|x64
+		{23F84642-E9B5-4339-A4A4-F9334E40E398}.Debug|x64.Build.0 = Debug|x64
+		{23F84642-E9B5-4339-A4A4-F9334E40E398}.Debug|x86.ActiveCfg = Debug|Win32
+		{23F84642-E9B5-4339-A4A4-F9334E40E398}.Debug|x86.Build.0 = Debug|Win32
+		{23F84642-E9B5-4339-A4A4-F9334E40E398}.Release|x64.ActiveCfg = Release|x64
+		{23F84642-E9B5-4339-A4A4-F9334E40E398}.Release|x64.Build.0 = Release|x64
+		{23F84642-E9B5-4339-A4A4-F9334E40E398}.Release|x86.ActiveCfg = Release|Win32
+		{23F84642-E9B5-4339-A4A4-F9334E40E398}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12A602E0-266B-4BC5-91A3-5FC18D866F21}
+	EndGlobalSection
+EndGlobal
