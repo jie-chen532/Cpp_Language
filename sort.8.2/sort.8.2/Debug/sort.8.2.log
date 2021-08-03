@@ -1,0 +1,3 @@
+﻿  sort.cpp
+d:\秋招复习\sort.8.2\sort.8.2\sort.cpp(439): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  sort.8.2.vcxproj -> D:\秋招复习\sort.8.2\Debug\sort.8.2.exe
