@@ -1,0 +1,9 @@
+﻿  SmartPtr.cpp
+d:\秋招复习\smartptr\smartptr\smartptr.cpp(62): error C2146: 语法错误: 缺少“)”(在标识符“Del”的前面)
+  d:\秋招复习\smartptr\smartptr\smartptr.cpp(152): note: 参见对正在编译的 类 模板 实例化 "SharedPtr<T>" 的引用
+d:\秋招复习\smartptr\smartptr\smartptr.cpp(62): error C3646: “Del”: 未知重写说明符
+d:\秋招复习\smartptr\smartptr\smartptr.cpp(62): error C3646: “del”: 未知重写说明符
+d:\秋招复习\smartptr\smartptr\smartptr.cpp(62): error C2061: 语法错误: 标识符“Delete<`template-type-parameter-1'>”
+d:\秋招复习\smartptr\smartptr\smartptr.cpp(62): error C2059: 语法错误:“)”
+d:\秋招复习\smartptr\smartptr\smartptr.cpp(62): error C2334: “:”的前面有意外标记；跳过明显的函数体
+d:\秋招复习\smartptr\smartptr\smartptr.cpp(152): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
